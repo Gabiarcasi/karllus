@@ -1,0 +1,48 @@
+.bg-image {
+    background-image: linear-gradient(#00000088, #00000088), url('../img/fundo.png');
+    background-size: cover;
+    background-position: center;
+    background-color:black;
+}
+.img-card {
+    width: 200px;  /* Largura da imagem */
+    height: 200px; /* Altura da imagem */
+    object-fit: cover;
+}
+
+.text-primary{
+    color: #14268d !important;
+}
+
+.btn-primary{
+    background-color: #14268d !important;
+}
+
+.text-primary{
+    color: #14268d !important;
+}
+
+.btn-primary, .btn-border-color{
+    background-color: #14268d !important;
+    --bs-btn-border-color: #14268d;
+}
+
+.bg-light{  
+    background-color: #14268d2a  !important;
+}
+
+.btn-init{
+    color: #14268d;
+    background-color: #ffffff !important;
+    --bs-btn-border-color: #ffffff;
+}
+
+.btn-init:hover{
+    color: #14268d;
+    opacity: 0.8;
+}
+
+.btn-primary:hover{
+    color: #ffffff;
+    opacity: 0.8;
+}
